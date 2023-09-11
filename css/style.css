@@ -1,7 +1,7 @@
 *{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+padding:0;
+margin:0;
+box-sizing: border-box;
 }
 
 
@@ -16,30 +16,30 @@ height: 5rem;
 }
 
 .navbar {
-    list-style: none;
-    display: flex ;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 12rem;
+list-style: none;
+display: flex ;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+gap: 12rem;
 
 }
 .navbar li a{
-    font-family: 'Work Sans', sans-serif;
-    font-size: .9375rem;
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
+font-family: 'Work Sans', sans-serif;
+font-size: .9375rem;
+text-decoration: none;
+color: black;
+font-weight: 700;
 }           
 header div a img{
-    height: 2.5rem;
-    width: auto;
+height: 2.5rem;
+width: auto;
 }
 
 .body-index{
-    background-image: url(../assets/img/background-index.png);
-    background-size:cover;
-    background-repeat: no-repeat;
+background-image: url(../assets/img/background-index.png);
+background-size:cover;
+background-repeat: no-repeat;
 }
 
 
@@ -47,23 +47,23 @@ header div a img{
 
 
 .main-index{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 gap: 8.125rem;
 }
 
 .main-index section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;  
-    justify-content:space-around ;
-    align-items: center;
-    gap:12.5rem;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;  
+justify-content:space-around ;
+align-items: center;
+gap:12.5rem;
 }
 
 .cards-index{
@@ -78,8 +78,8 @@ background: linear-gradient(180deg, rgba(0,0,0,0.5508578431372548) 9%, rgba(0,0,
 border-radius: 1.25rem;
 }
 .images-div{
-    height: 9.375rem;
-    width: 9.375rem;
+height: 9.375rem;
+width: 9.375rem;
 background-image: url(https://www.opexfit.com/hubfs/how_many_exercises_should_you_do_in_a_workout%20%281%29.png);
 background-position: center;
 background-size: cover;
@@ -88,24 +88,25 @@ border-radius: 1.5625rem;
 }
 
 .button {
-    background-color: #3498db;
-    color: #fff;
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+background-color: #3498db;
+color: #fff;
+border-radius: 20px;
+padding: 10px 20px;
+font-size: 16px;
+border: none;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
 }
 .button:hover {
-    background-color: #2980b9;
-    transform: scale(1.05);
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+background-color: #2980b9;
+transform: scale(1.05);
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 .button:active {
-    transform: scale(0.95);}
+transform: scale(0.95);}
+
 footer{
-    height: 12.5rem;
+height: 12.5rem;
 background-color: white;
 display: flex;
 flex-direction: column;
@@ -116,55 +117,65 @@ gap: 3.75rem;
 }
 
 .footer-navbar{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 3.125rem;
-    text-decoration: none;
-    list-style: none;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+gap: 3.125rem;
+text-decoration: none;
+list-style: none;
 }
 
 
 .footer-navbar li a img{
-    height: 2.5rem;
-    width: auto;
+height: 2.5rem;
+width: auto;
 
 }
 
 /*COMIENZO DE LOCATIONS*/
 
 .main-locations{
-    display: grid;
-    background-color: blanchedalmond;
-    grid-template-columns: auto auto;
+display: grid;
+background-color: blanchedalmond;
+grid-template-rows:repeat(2, 1fr);
+height: 100vh;
+grid-template-areas: 
+"item1"
+"item2";
+}
+.item1{
+    grid-area:item1
+}
+.item2{
+    grid-area:item2
 }
 .section-mapa{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 4.375rem;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 4.375rem;
 }
 .card-location{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
 }
 
 /*COMIENZO DE ABOUT US*/
 .main-aboutus{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 6.25rem;
-    height: 100vh;
-    padding-top: 3.75rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: center;
+gap: 6.25rem;
+height: 100vh;
+padding-top: 3.75rem;
 }
 
 
@@ -172,23 +183,22 @@ gap: 3.75rem;
 /*COMIENZO DE SHOP*/
 
 .main-shop{
-    display: flex;
-    flex-direction: column;
-     align-items:center ;
-     flex-wrap: wrap;
-     justify-content: center;
-     height: 100vh;
-     gap: 4.375rem;
-    
+display: flex;
+flex-direction: column;
+align-items:center ;
+flex-wrap: wrap;
+justify-content: center;
+height: 100vh;
+gap: 4.375rem;
 }
 
 .section-div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 4.375rem;
+display: flex;
+flex-direction: row;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+gap: 4.375rem;
 }
 
 
@@ -201,8 +211,8 @@ justify-content: center;
 }
 
 .section-div div img{
-    height: 18.75rem;
-    width: auto;
+height: 18.75rem;
+width: auto;
 }
 
 
@@ -220,10 +230,10 @@ gap: 6.25rem;
 }
 
 .main-class{
-    height: 100vh;
-    width: auto;
-    display: flex;
-    flex-direction: row;
+height: 100vh;
+width: auto;
+display: flex;
+flex-direction: row;
 align-items: center;
 flex-wrap: wrap;
 justify-content: center;
@@ -231,58 +241,58 @@ background-color: aquamarine;
 }
 
 .div-class{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 6.25rem;
+display:flex;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+gap: 6.25rem;
 }
 
 
 /*media query*/
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        height: auto;
-        padding: 20px; 
-        text-align: center; 
-        gap: 1.25rem;
-    }
-
-    .navbar {
-        flex-direction: column;
-        gap: 10px; 
-        text-align: center; 
-    }
-
-    .navbar li {
-        margin-bottom: 10px; 
-    }
+header {
+flex-direction: column;
+height: auto;
+padding: 20px; 
+text-align: center; 
+gap: 1.25rem;
 }
 
+.navbar {
+flex-direction: column;
+gap: 10px; 
+text-align: center; 
+}
+
+.navbar li {
+margin-bottom: 10px; 
+}
+
+
 .main-locations{
-    gap: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-self: center;
-    align-items: center;
+gap: 1.25rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-self: center;
+align-items: center;
 }
 
 .section-mapa{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-self: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-self: center;
+align-items: center;
 }
 
 .main-class{
-    height: 100vh;
-    width: auto;
-    display: flex;
-    flex-direction: row;
+height: 100vh;
+width: auto;
+display: flex;
+flex-direction: row;
 align-items: center;
 flex-wrap: wrap;
 justify-content: center;
@@ -290,6 +300,10 @@ background-color: aquamarine;
 }
 
 .arnold-class img{
-    height: 12.5rem;
-    
+height: 12.5rem;
+}
+}
+
+.custom-card {
+width: 18rem;
 }
