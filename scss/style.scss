@@ -1,0 +1,19 @@
+/*primero llamamos las variables y mixins*/
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+/*despues llamamos al reset*/
+@import "./base/resets";
+@import "./base/typo";
+
+/*layout*/
+@import"./layout/header";
+@import"./layout/main";
+@import"./layout/footer";
+
+/*components*/
+@import"./components/botones";
+@import"./media/media768";
+@import"./media/media425";
+@import"./media/media320"
+

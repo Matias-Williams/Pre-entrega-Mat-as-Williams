@@ -1,0 +1,57 @@
+/*media query*/
+    @media (max-width: 768px) {
+        header{
+            background-color: rgb(92, 91, 91);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+        height: 5rem;
+        gap:8rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+        }
+        
+        .navbar {
+        list-style: none;
+        display: flex ;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        
+        }
+        .navbar li a{
+        font-family: 'Work Sans', sans-serif;
+        font-size: .9375rem;
+        text-decoration: none;
+        color: rgb(255, 250, 250);
+        font-weight: 700;
+        }           
+        header div a img{
+        height: 2.5rem;
+        width: auto;
+        }
+    
+
+    .main-aboutus iframe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6.25rem;
+        height: 50rem;
+        width: 40rem;
+        padding-top: 3.75rem;
+        background: radial-gradient(circle, rgba(255,255,255,1) 34%, rgba(0,0,0,1) 100%);
+        }
+        
+        .tamaño-video{
+        height: 150vh;
+        width: 150vh;
+        }
+    }

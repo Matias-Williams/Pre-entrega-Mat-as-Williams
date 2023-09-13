@@ -1,0 +1,30 @@
+footer{
+    height: 12.5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3.75rem;
+    nav{
+        ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            gap: 3.125rem;
+            text-decoration: none;
+            list-style: none;
+            li{
+                a{
+                    img{
+                        height: 2.5rem;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}

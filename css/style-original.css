@@ -260,16 +260,6 @@ width: auto;
 
 /*COMIENZO DE CONTACT*/
 
-.arnold-class{
-display: flex;
-flex-direction: row;
-align-items: center;
-flex-wrap: wrap;
-justify-content: center;
-gap: 6.25rem;
-
-
-}
 
 .main-class{
 height: 100vh;

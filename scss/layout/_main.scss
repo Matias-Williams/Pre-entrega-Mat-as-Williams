@@ -1,0 +1,142 @@
+.main-aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6.25rem;
+    height: 100vh;
+    padding-top: 3.75rem;
+    background: radial-gradient(circle, rgba(255,255,255,1) 34%, rgba(0,0,0,1) 100%);
+    iframe{
+        height: 150vh;
+        width: 150vh;
+    }
+    }
+
+    .main-shop{
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100vh;
+        gap: 4.375rem;
+        background: radial-gradient(circle, rgba(255,255,255,1) 34%, rgba(0,0,0,1) 100%);
+                .section-div{
+                    @include flex (row, wrap, center, center, 4.375rem);
+                div{
+                    img{
+                        height: 18.75rem;
+                        width: auto;
+                }
+                button{
+                    @include flex (column, wrap, center, center, 0);
+                    @include button-style (grey, white, 3.125rem, none, .625rem );
+            }
+            }
+        }
+    }
+
+
+.main-shop{
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100vh;
+        gap: 4.375rem;
+        background: radial-gradient(circle, rgba(255,255,255,1) 34%, rgba(0,0,0,1) 100%);
+section-div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 4.375rem;
+                img{
+                    height: 18.75rem;
+                    width: auto;
+        }
+        }
+        }
+
+.main-locations{
+        display: grid;
+        background-color: rgb(255, 255, 255);
+        grid-template-rows:100vh, 1fr, 1fr;
+        height: auto;
+        grid-template-areas: 
+        "item3"
+        "item1"
+        "item2";
+            .section-location{
+                    height: 100vh;
+                    width: 100%;
+                    .imagen-fondo{
+                        background-image: url(../assets/img/locations.jpg);
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        height: 100vh;
+                        width: auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        color: white;
+                            .loc-class{
+                                color: white;
+                            }
+                    }
+                                    .section-mapa{
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        flex-wrap: wrap;
+                                        gap: 4.375rem;
+                                    }
+}
+}
+.item1{
+grid-area:item1
+}
+.item2{
+grid-area:item2
+}
+.item3{
+    grid-area:item3
+    }
+
+.main-class{
+    height: 100vh;
+width: auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+background-image: url(../assets/img/gigante.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+            section{
+                .div-class{
+                    display:flex;
+                    flex-direction: column;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 6.25rem;
+                    color: white;
+                }
+            }
+}
+
+
+
+

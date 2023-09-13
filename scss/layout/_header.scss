@@ -1,0 +1,30 @@
+header {
+background-color: $primary-bg-color;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+height: 5rem;
+}
+
+.navbar {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+gap: 12rem;
+}
+
+.navbar li a {
+font-family: $font-family;
+font-size: .9375rem;
+text-decoration: none;
+color: #fff;
+font-weight: $font-weight;
+}
+
+header div a img {
+height: 2.5rem;
+width: auto;
+}
