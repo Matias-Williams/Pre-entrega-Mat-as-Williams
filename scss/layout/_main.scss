@@ -3,17 +3,40 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 6.25rem;
-    height: 100vh;
     padding-top: 3.75rem;
     background: radial-gradient(circle, rgba(255,255,255,1) 34%, rgba(0,0,0,1) 100%);
-    iframe{
-        height: 150vh;
-        width: 150vh;
-    }
-    }
+            iframe{
+                height: 150vh;
+                width: 150vh;}
+                section{
+                    @include flex (row, wrap, center, center, 1rem);
+                    height: 0vh;
+                    width: 100%;
+                    section{
+                        display: flex;
+                        width: 37.5rem;
+                        height: 26.875rem;
+                        img{
+                                width: 0px;
+                                flex-grow: 1;
+                                object-fit: cover;
+                                opacity: .8;
+                                transition: .5s ease;
+                                &:hover{
+                                    cursor: crosshair;
+                                    width: 18.75rem;
+                                    opacity: 1;
+                                    filter: contrast(120%);
+                                }
+                                
+                            }
+                        }
+                }
+            }
+        
 
     .main-shop{
         display: flex;
@@ -49,19 +72,20 @@
         height: 100vh;
         gap: 4.375rem;
         background: radial-gradient(circle, rgba(255,255,255,1) 34%, rgba(0,0,0,1) 100%);
-section-div{
+.section-div{
             display: flex;
             flex-direction: row;
             align-items: center;
             flex-wrap: wrap;
             justify-content: center;
             gap: 4.375rem;
+                }
                 img{
                     height: 18.75rem;
                     width: auto;
         }
         }
-        }
+
 
 .main-locations{
         display: grid;

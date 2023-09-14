@@ -4,7 +4,7 @@
     flex-wrap: $wrap;
     justify-content: $justify;
     align-items: $align;
-    gap:$gap;
+    gap:$gap;
 }
 
 @mixin button-style($background-color, $text-color, $border-radius, $border, $padding) {
