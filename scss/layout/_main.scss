@@ -13,7 +13,7 @@
                 width: 150vh;}
                 section{
                     @include flex (row, wrap, center, center, 1rem);
-                    height: 0vh;
+                    height: 50vh;
                     width: 100%;
                     section{
                         display: flex;
